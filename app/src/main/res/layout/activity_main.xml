@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.salarioza.salarioza_quiz1.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Institute of Inrformation and Computing Sciences"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#DC143C"
+        android:textAllCaps="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.S Computer Science"
+        android:layout_marginTop="175dp"
+        android:textColor="#1E90FF"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:id="@+id/cs"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="GoToCS"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.S Information Technology"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:id="@+id/it"
+        android:layout_below="@+id/cs"
+        android:layout_centerHorizontal="true"
+        android:onClick="GoToIT"
+        android:textColor="#32CD32"
+        android:textSize="17dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B.S Information System"
+        android:id="@+id/is"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:textColor="#FF7F50"
+        android:layout_below="@+id/it"
+        android:textSize="17dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="GoToIS"/>
+
+</RelativeLayout>
